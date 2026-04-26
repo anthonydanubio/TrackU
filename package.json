@@ -1,0 +1,30 @@
+{
+  "name": "tracku-monorepo",
+  "version": "1.0.0",
+  "description": "TrackU - Student Productivity Dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "preview": "pnpm -r preview",
+    "type-check": "pnpm -r type-check",
+    "lint": "pnpm -r lint"
+  },
+  "keywords": [
+    "student",
+    "productivity",
+    "dashboard",
+    "assignments",
+    "calendar"
+  ],
+  "author": "Anthony Danubio",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
